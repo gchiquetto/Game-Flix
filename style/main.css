@@ -1,0 +1,104 @@
+:root {
+    --purple: #8257e5;
+    --cinza: #d8d8e0;
+    --preto: #202024;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--preto);
+}
+
+header .container {
+    display: flex;
+    background-color: var(--purple);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Tourney', cursive, 'Times New Roman', Times, serif;
+    font-size: 300%;
+    color: var(--cinza);
+    margin-left: 15px;
+}
+
+header nav a {
+    font-family: 'Staatliches', cursive, 'Times New Roman', Times, serif;
+    color: var(--cinza);
+    margin-right: 15px;
+    font-size: 130%;
+}
+
+header nav a:hover {
+    color: #fff
+}
+
+.game-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, 0.247)20%), url('/img/img5.jpg');
+    height: 400px;
+    background-size: cover;
+    font-family: Segoe UI, SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+}
+
+.game-principal .container {
+    margin-bottom: 30px;
+    margin-left: 15px;
+    width: 70%;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 20px;
+    margin-bottom: 130px;
+}
+
+.botao {
+    background-color: var(--purple);
+    border-radius: 5px;
+    border: 1px var(--purple);
+    padding: 15px 30px;
+    margin-right: 10px;
+    transition: 0.3s ease all;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+.botao i {
+    margin-right: 6px;
+}
+
+.botao:hover {
+    background-color: whitesmoke;
+    color: var(--purple);
+}
+
+.jogos {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.owl-carousel {
+    margin-top: 5px;
+}
